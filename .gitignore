@@ -11,5 +11,34 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+
+# Created by https://www.gitignore.io/api/sbt,scala
+# Edit at https://www.gitignore.io/?templates=sbt,scala
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+### Scala ###
+*.class
+*.log
+
+# End of https://www.gitignore.io/api/sbt,scala
+
+
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+.dotty-ide-artifact
+
+.dotty-ide.json
